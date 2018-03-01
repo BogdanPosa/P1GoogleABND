@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECB3"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/Image"
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                android:contentDescription="@string/desc1"
+                android:src="@drawable/back3" />
+
+            <TextView
+                style="@style/Title"
+                android:layout_width="wrap_content"
+                android:text="@string/Title" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/SubTitle"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Subtitle" />
+
+        <TextView
+            style="@style/Body"
+            android:text="@string/body" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="#BDBDBD"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/Image"
+                android:contentDescription="@string/desc2"
+                android:src="@drawable/location" />
+
+            <TextView
+                style="@style/Body"
+                android:autoLink="map"
+                android:text="@string/Thumbnail1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="#BDBDBD"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/Image"
+                android:contentDescription="@string/desc3"
+                android:src="@drawable/mail" />
+
+            <TextView
+                style="@style/Body"
+                android:autoLink="email"
+                android:text="@string/Thumbnail2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="#BDBDBD"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/Image"
+                android:contentDescription="@string/desc4"
+                android:src="@drawable/call" />
+
+            <TextView
+                style="@style/Body"
+                android:autoLink="phone"
+                android:text="@string/Thumbnail3" />
+        </LinearLayout>
+
+        <ImageView
+            style="@style/Image"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:contentDescription="@string/desc5"
+            android:src="@drawable/mustache" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P1GoogleABND</string>
+    <string name="Title"><i>The extraordinary league of Gentleman"'"s </i></string>
+    <string name="Subtitle">For the love of everything \nthat defines us as men, join us!</string>
+    <string name="body">Being male is a matter of birth. Being a man is a matter of age. But being a gentleman is a matter of choice.</string>
+    <string name="Thumbnail1"> <b>Come to us</b> \n Address: 620 Eighth Avenue New York, NY 10018 </string>
+    <string name="Thumbnail2"> <b>Write us a letter</b> \n Mail: thegloriousbeards@gmail.hu</string>
+    <string name="Thumbnail3"> <b>Talk to us</b> \n Phone: (+40)748 137 088</string>
+    <string name="desc1">Company logo</string>
+    <string name="desc2">Map logo</string>
+    <string name="desc3">Mail logo</string>
+    <string name="desc4">Phone logo</string>
+    <string name="desc5">Footer</string>
+</resources>

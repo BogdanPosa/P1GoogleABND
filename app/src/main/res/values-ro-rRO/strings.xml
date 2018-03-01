@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P1GoogleABND</string>
+    <string name="Title"><i>Extraordinara liga a domnilor </i></string>
+    <string name="Subtitle">Din dragoste pentru tot \nce ne defineste ca barbati, alatura-te!</string>
+    <string name="body">Sa fii mascul depinde de nastere. Sa fii barbat depinde de varsta. Dar sa fii domn depinde de alegeri.</string>
+    <string name="Thumbnail1"> <b>Vino la noi</b> \n Adresa: 620 Eighth Avenue New York, NY 10018 </string>
+    <string name="Thumbnail2"> <b>Scrie-ne o scrisoare</b> \n Mail: thegloriousbeards@gmail.hu</string>
+    <string name="Thumbnail3"> <b>Vorbeste-ne</b> \n Telefon: (+40)748 137 088</string>
+    <string name="desc1">Company logo</string>
+    <string name="desc2">Map logo</string>
+    <string name="desc3">Mail logo</string>
+    <string name="desc4">Phone logo</string>
+    <string name="desc5">Footer</string>
+</resources>
