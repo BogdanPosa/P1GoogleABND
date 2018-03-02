@@ -98,7 +98,7 @@
         <ImageView
             style="@style/Image"
             android:layout_width="match_parent"
-            android:layout_height="100sp"
+            android:layout_height="100dp"
             android:contentDescription="@string/desc5"
             android:src="@drawable/mustache" />
     </LinearLayout>
