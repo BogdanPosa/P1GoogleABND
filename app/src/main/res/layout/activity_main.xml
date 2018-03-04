@@ -18,8 +18,8 @@
 
             <ImageView
                 style="@style/Image"
-                android:layout_width="110sp"
-                android:layout_height="110sp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
                 android:contentDescription="@string/desc1"
                 android:src="@drawable/back3" />
 
@@ -72,7 +72,9 @@
 
             <TextView
                 style="@style/Body"
+
                 android:autoLink="email"
+                android:background="#BDBDBD"
                 android:text="@string/Thumbnail2" />
         </LinearLayout>
 
@@ -86,6 +88,7 @@
 
             <ImageView
                 style="@style/Image"
+                android:background="#BDBDBD"
                 android:contentDescription="@string/desc4"
                 android:src="@drawable/call" />
 
@@ -97,6 +100,7 @@
 
         <ImageView
             style="@style/Image"
+
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:contentDescription="@string/desc5"

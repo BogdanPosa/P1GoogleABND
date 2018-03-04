@@ -38,15 +38,14 @@
     </style>
 
     <style name="Image">
-        <item name="android:contentDescription">"@string/desc"</item>
         <item name="android:padding">20dp</item>
         <item name="android:paddingLeft">0dp</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:scaleType">centerCrop</item>
-        <item name="android:layout_width">80sp</item>
-        <item name="android:layout_height">80sp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
         <item name="android:typeface">sans</item>
-    </style>
+    </style>w
 
 
 </resources>
