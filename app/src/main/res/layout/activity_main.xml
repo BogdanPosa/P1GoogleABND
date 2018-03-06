@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFECB3"
+    android:background="@color/colorPrimary"
     android:fillViewport="true"
     android:orientation="vertical">
 
@@ -21,7 +21,7 @@
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:contentDescription="@string/desc1"
-                android:src="@drawable/back3" />
+                android:src="@drawable/logo" />
 
             <TextView
                 style="@style/Title"
@@ -43,7 +43,7 @@
             android:layout_height="0dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="#BDBDBD"
+            android:background="@color/secondaryText"
             android:orientation="horizontal">
 
             <ImageView
@@ -62,7 +62,7 @@
             android:layout_height="0dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="#BDBDBD"
+            android:background="@color/secondaryText"
             android:orientation="horizontal">
 
             <ImageView
@@ -72,9 +72,7 @@
 
             <TextView
                 style="@style/Body"
-
                 android:autoLink="email"
-                android:background="#BDBDBD"
                 android:text="@string/Thumbnail2" />
         </LinearLayout>
 
@@ -83,12 +81,11 @@
             android:layout_height="0dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="#BDBDBD"
+            android:background="@color/secondaryText"
             android:orientation="horizontal">
 
             <ImageView
                 style="@style/Image"
-                android:background="#BDBDBD"
                 android:contentDescription="@string/desc4"
                 android:src="@drawable/call" />
 
@@ -100,10 +97,10 @@
 
         <ImageView
             style="@style/Image"
-
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:contentDescription="@string/desc5"
+            android:scaleType="fitCenter"
             android:src="@drawable/mustache" />
     </LinearLayout>
 </ScrollView>
