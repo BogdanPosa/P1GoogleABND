@@ -10,34 +10,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
             <ImageView
                 style="@style/Image"
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:contentDescription="@string/desc1"
                 android:src="@drawable/logo" />
-
             <TextView
                 style="@style/Title"
                 android:layout_width="wrap_content"
                 android:text="@string/Title" />
         </LinearLayout>
-
         <TextView
             style="@style/SubTitle"
             android:layout_gravity="center_horizontal"
             android:text="@string/Subtitle" />
-
         <TextView
             style="@style/Body"
             android:text="@string/body" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -45,18 +39,15 @@
             android:layout_weight="1"
             android:background="@color/secondaryText"
             android:orientation="horizontal">
-
             <ImageView
                 style="@style/Image"
                 android:contentDescription="@string/desc2"
                 android:src="@drawable/location" />
-
             <TextView
                 style="@style/Body"
                 android:autoLink="map"
                 android:text="@string/Thumbnail1" />
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -64,18 +55,15 @@
             android:layout_weight="1"
             android:background="@color/secondaryText"
             android:orientation="horizontal">
-
             <ImageView
                 style="@style/Image"
                 android:contentDescription="@string/desc3"
                 android:src="@drawable/mail" />
-
             <TextView
                 style="@style/Body"
                 android:autoLink="email"
                 android:text="@string/Thumbnail2" />
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -83,18 +71,15 @@
             android:layout_weight="1"
             android:background="@color/secondaryText"
             android:orientation="horizontal">
-
             <ImageView
                 style="@style/Image"
                 android:contentDescription="@string/desc4"
                 android:src="@drawable/call" />
-
             <TextView
                 style="@style/Body"
                 android:autoLink="phone"
                 android:text="@string/Thumbnail3" />
         </LinearLayout>
-
         <ImageView
             style="@style/Image"
             android:layout_width="match_parent"
